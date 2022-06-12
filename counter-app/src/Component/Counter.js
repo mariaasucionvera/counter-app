@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-const Counter =()=> {
+const Counter = ()=> {
     const [num, setNum]= useState(0);
     const addNum = ()=>{setNum(num <= 19 ? num + 1: 20)};
     const restNum =()=>{setNum(num >= 1 ? num - 1: 0)};
